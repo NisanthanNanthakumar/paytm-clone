@@ -44,7 +44,7 @@ class Form extends Component {
             width={[1, 1 / 2, 0.4, 1 / 3]}
             px={2}
             pt={2}
-            my={"calc((98vh - 611.250px)/2)"}
+            my={login ? "calc((98vh - 611.250px)/2)" : "calc((98vh - 629.656px)/2)"}
             style={{ backgroundColor: "white" }}
           >
             <Box width={0.7} px={2} p={4} ms={4} ml="15%">
